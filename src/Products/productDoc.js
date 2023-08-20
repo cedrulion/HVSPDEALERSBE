@@ -94,7 +94,7 @@ const deleteProduct={
     description:"Deleting product",
     parameters:[
         {
-            name:"productID",
+            name:"product",
             in:"path",
             description:"product id",
             type:"string",
@@ -188,7 +188,7 @@ const updateProduct={
     description:"Updating product",
     parameters:[
         {
-            name:"productID",
+            name:"product",
             in:"path",
             description:"product id",
             type:"string",
